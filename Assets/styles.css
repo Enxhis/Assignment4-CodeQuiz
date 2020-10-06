@@ -1,0 +1,163 @@
+/* General style */
+* {
+    margin: 10px;
+    /* align-items: center; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+main {
+    /*overflow: scroll;
+     display: block;
+    margin-left: auto;
+    margin-right: auto */
+}
+
+body {
+    background-image: url(https://st4.depositphotos.com/23208318/38466/v/950/depositphotos_384668944-stock-illustration-quiz-seamless-pattern-question-marks.jpg;);
+
+}
+
+.wrapper {
+    margin: 100px auto 0 auto;
+    max-width: 500px;
+
+}
+
+.card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22rem;
+    /* overflow: scroll; */
+}
+
+.hide {
+    display: none;
+}
+
+/* Navbar styles */
+.navbar-title {
+    color: white;
+    font-weight: bolder;
+}
+
+.nav-link {
+    color: white;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.timer {
+    color: white;
+}
+
+/* index.html styles  */
+#questionTitle {
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+
+}
+
+button {
+    display: list-item;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #070f1a;
+    background-color: #93b5e1;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #d0def0;
+}
+
+button:hover {
+    background-color: #6b9ddd;
+}
+
+.choices button {
+    display: list-item;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.feedback {
+    font-style: italic;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: rgb(53, 49, 49);
+    border-top: 2px solid #ccc;
+}
+
+input[type="text"] {
+    font-size: 100%;
+}
+
+/* End-screen style */
+#end-screen {
+    padding: 10px;
+    background-color: #c3aed6;
+    color: white;
+    font-size: 22px;
+}
+
+.endQuizTitle {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+
+/* Highscores.html styles */
+#highscore-wrapp {
+    padding: 10px;
+    background-color: #c3aed6;
+    overflow: scroll;
+}
+
+.highscoreTitle {
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+}
+
+ol {
+    padding-left: 0px;
+    max-height: 400px;
+    overflow: scroll;
+}
+
+li {
+    padding: 5px;
+    list-style: decimal inside none;
+}
+
+li:nth-child(odd) {
+    background-color: #f3edfc;
+}
+
+/* footer styles */
+.fixed-bottom {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center;
+    margin-left: 40%;
+    margin-right: center;
+}
